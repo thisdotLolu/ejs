@@ -1,0 +1,71 @@
+The Global Object is Global and not window
+__dirname and __filename
+module.exports
+require
+file system : fs.readFile, fs.writeFile, fs.mkdir, fs.existSync, fs.rmdir
+
+Streams and buffers
+fs.createReadStream
+fs.createWriteStream
+pipe-- readStream.pipe(writeStream)
+
+
+Clients and Servers
+ip addresses and domains
+http is the means by shich client and server communicates
+
+localhost; special ip address takes us to a server called loopback, helps us use our computer as a host
+
+
+Routing
+normal concept
+switch statement to check request from req.url
+
+
+Status Codes
+100 range - informational responses
+200 range - success Codes
+300 range - codes for redirects
+400 range - client or user errors
+500 range - server error codes
+
+
+
+Redirects
+used in switch statement
+
+NPM
+lodash, nodemon
+
+EXPRESS
+
+app.get
+Routing, using root to track current directory
+
+app.use, 404
+
+View Engines
+ejs npm i ejs
+res.render instead of res.sendFile
+
+Passing data into views
+
+
+Middleware
+code runnung between settuing a requeest and getting a response
+we can have more than one Middleware
+
+morgan
+
+MONGODB
+mongodb atlas--cluster creation, project creation
+mongoose- oBJEXT DOCument library
+
+get post delete
+
+
+MVC and Express router
+Express router-split different files and manage to be more modular
+
+
+
